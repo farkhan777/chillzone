@@ -66249,9 +66249,14 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "_1side_menu_logo" }, [
-      _c("h3", { staticStyle: { "text-align": "center" } }, [
-        _vm._v("Logo Image")
-      ])
+      _c("img", {
+        staticStyle: { width: "108px", "margin-left": "68px" },
+        attrs: {
+          src:
+            "https://scontent-sin6-1.xx.fbcdn.net/v/t1.6435-9/178400701_521250482378042_5204564419246067314_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=e3f864&_nc_ohc=HBGk95FDsf0AX-S5Iko&_nc_ht=scontent-sin6-1.xx&oh=1cb7f0a7aa615445faee5d0a5012d692&oe=60AEF817",
+          alt: "logo"
+        }
+      })
     ])
   },
   function() {
@@ -82827,7 +82832,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_vue_pages_myFirstVuePage_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components.vue/pages/myFirstVuePage.vue */ "./resources/js/components.vue/pages/myFirstVuePage.vue");
 /* harmony import */ var _components_vue_pages_newRoutePage_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components.vue/pages/newRoutePage.vue */ "./resources/js/components.vue/pages/newRoutePage.vue");
 /* harmony import */ var _components_vue_pages_home_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components.vue/pages/home.vue */ "./resources/js/components.vue/pages/home.vue");
-/* harmony import */ var _components_vue_pages_tags_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components.vue/pages/tags.vue */ "./resources/js/components.vue/pages/tags.vue");
+/* harmony import */ var _components_vue_pages_tags_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components.vue/pages/tags.vue */ "./resources/js/components.vue/pages/tags.vue");
 
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
@@ -82841,7 +82846,7 @@ var routes = [//Projects routers
   component: _components_vue_pages_home_vue__WEBPACK_IMPORTED_MODULE_4__["default"]
 }, {
   path: '/tags',
-  component: _components_vue_pages_tags_vue__WEBPACK_IMPORTED_MODULE_6__["default"]
+  component: _components_vue_pages_tags_vue__WEBPACK_IMPORTED_MODULE_5__["default"]
 }, {
   path: '/my-new-vue-route',
   component: _components_vue_pages_myFirstVuePage_vue__WEBPACK_IMPORTED_MODULE_2__["default"]

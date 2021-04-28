@@ -5,8 +5,9 @@
       <!--========== ADMIN SIDE MENU one ========-->
       <div class="_1side_menu" >
         <div class="_1side_menu_logo">
-          <h3 style="text-align:center;">Logo Image</h3>
-          <!--<img src="/img/logo.jpg" style="width: 108px;margin-left: 68px;"/>-->
+          <!-- <h3 style="text-align:center;">Logo Image</h3> -->
+          <!-- <img src="/img/logo.jpg" style="width: 108px;margin-left: 68px;"/> -->
+          <img style="width: 108px; margin-left: 68px;" src="https://scontent-sin6-1.xx.fbcdn.net/v/t1.6435-9/178400701_521250482378042_5204564419246067314_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=e3f864&_nc_ohc=HBGk95FDsf0AX-S5Iko&_nc_ht=scontent-sin6-1.xx&oh=1cb7f0a7aa615445faee5d0a5012d692&oe=60AEF817" alt="logo">
         </div>
 
         <!--~~~~~~~~ MENU CONTENT ~~~~~~~~-->
