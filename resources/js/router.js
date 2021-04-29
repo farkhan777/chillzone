@@ -8,6 +8,11 @@ import newRoutePage from './components.vue/pages/newRoutePage.vue'
 
 import home from './components.vue/pages/home.vue'
 import tags from './components.vue/pages/tags.vue'
+import createBlog from './components.vue/pages/createBlog.vue'
+import category from './components.vue/pages/category.vue'
+import adminusers from './components.vue/pages/adminusers.vue'
+import role from './components.vue/pages/role.vue'
+import assignRole from './components.vue/pages/assignRole.vue'
 
 const routes = [
     //Projects routers
@@ -20,9 +25,26 @@ const routes = [
         path: '/tags',
         component: tags,
     },
-
-
-
+    {
+        path: '/createBlog',
+        component: createBlog,
+    },
+    {
+        path: '/category',
+        component: category,
+    },
+    {
+        path: '/adminusers',
+        component: adminusers,
+    },
+    {
+        path: '/role',
+        component: role,
+    },
+    {
+        path: '/assignRole',
+        component: assignRole,
+    },
 
 
 
