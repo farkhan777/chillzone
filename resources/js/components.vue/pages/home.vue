@@ -150,7 +150,7 @@
 						</table>
 					</div>
 				</div>
-				 <Page :total="100" />
+				<Page :total="100" />
 
 			</div>
 		</div>
